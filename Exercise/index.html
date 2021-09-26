@@ -1,20 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>HTML Form </title>
+<meta charset="UTF-8">
 </head>
 <body>
-<h3>
-    Form Design Exercise:
-</h3>
-<p style="font-family: Helvetica;font-size: medium">
-    Disregarding the style of the page: <br>
-    <a href="https://forms.gle/qjz8MKR4YXWkWCVLA">https://forms.gle/qjz8MKR4YXWkWCVLA</a>
-</p>
-<p style="font-family: Helvetica;font-size: medium">
-    Try to replicate the format of the form in the page.<br>
-    Make use of "Label", "Input" and "Table".
-</p>
+<form>
+<h1>Sample Form</h1>
+<label>Choose a topic, and research interest for the individual visualization project</label>
+<tbody>
+<td>
+<label><h2>Email</h2></label>
+<input type = "text" name="email" required  placeholder=""/>
+</td>
+<td>
+<h2>Firstname</h2>
+<input type = "text" name="firstname"  placeholder=""/>
+</td>
+<td>
+<h2>Lastname</h2>
+<input type = "text" name="lastname" placeholder=""/>
+</td>
+<td>
+<h2>Research Interest (list at least 3)</h2>
+<input type = "text" name="researchinterest" placeholder=""/>
+</td>
+<td>
+<h2>Project Title - (e.g. income vs education US Census)</h2></label>
+<input type = "text" name="projecttitle" placeholder="""/>
+</td>
+<td>
+<label><h2>Top Skills*</h2></label>
+<input type = "checkbox" id = "SQL" /><label for="SQL">SQL</label><br>
+<input type = "checkbox" id = "python" for="SQL">Python programming</label><br>
+<input type = "checkbox" id = "matlab" for="Matlab">Matlab</label><br>
+<input type = "checkbox" id = "D3js"for="D3js">D3js and Javascript</label><br>
+<input type = "checkbox" id = "C# VB.net"for="C# VB.net">C# VB.net</label><br>
+<input type = "checkbox" id = "PHP" for="PHP">PHP</label><br>
+<input type = "checkbox" id = "Node.JS"for="Node.JS">Node.JS</label><br>
+<input type = "checkbox" id = "WebDesigntools"for="WDT">Web design tools (eg: Wordpress)</label><br>
+<input type = "checkbox" id = "HTML and CSS"for="HTML and CSS">HTML and CSS</label><br>
+<input type = "checkbox" id = "Excel," for="Excel,">Excel,</label><br>
+<input type = "checkbox" id = "PowerBI"for="PowerBI">PowerBI</label><br>
+<input type = "checkbox" id = "Tableau" for="Tableau">Tableau</label><br>
+<input type = "checkbox" id = "option13" for="option13">Option 13</label><br>
+<input type = "checkbox" id = "other"for="other">Other:      </label>
+<input type = "text" id = "other" name="other"  required/><br>
+</td>
+<td>
+<label><h2>Suggestions or Questions</h2></label>
+<input type = "text" name="suggestions" placeholder=""/>
+</td>
+<td>
+<hr>
+<input type = "submit" name="suggestions" value="Submit"/>
+</td>
+</form>
 </body>
 </html>
